@@ -15,3 +15,9 @@ console.log(a); //false
 
 var e = isNaN("a" + 2);
 console.log(e); //true, the string "a2" is not a valid number, so isNaN("a2") returns true.
+
+var j = "a" + 2;
+console.log(j); //a2
+
+var j = "a" * 2;
+console.log(j); //NaN
